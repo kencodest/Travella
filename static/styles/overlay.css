@@ -1,0 +1,50 @@
+/* linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)), url('https://bit.ly/2rlzaXi');  */
+/* url('../images/destination_7.jpg'); */
+body{
+	
+	/*background: #C33764;*/  /* fallback colour. Make sure this is just one solid colour. */
+    /*background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");*/
+   /* background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),, url("https://bit.ly/2rlzaXi");*/ /* The least supported option. */
+	background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url('https://bit.ly/2rlzaXi');
+	background-size: cover;
+	overflow: hidden;
+ 
+    
+} 
+
+header{
+	height: 600px;
+	width: 100vw;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: relative;*/
+}
+
+
+.header-text{
+	margin: 0;
+	font-size: 30px;
+	color: blanchedalmond;
+	font-family: "Verdana";
+	/*position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)*/   
+}
+
+.header-text a{
+	padding: 0.5em 0.5em;
+	color: white;
+	background-color: #ff8080;
+	text-decoration: none;
+	font-size: 20px;
+	transition: all ease-in-out 250ms;
+
+}
+
+.header-text a:hover{
+	color:black;
+	background-color: #a3a3c2;
+}

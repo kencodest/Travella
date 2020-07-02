@@ -1,0 +1,62 @@
+/* url('../images/home_slider.jpg') */
+
+body{
+    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)), url('../images/home_slider.jpg');
+    
+    
+}
+
+/* .logo a{
+    font-family: "Verdana";
+	font-size: 30px;
+	font-weight: 500;
+	color: #FFFFFF;
+    line-height: 0.75;
+    text-decoration: none;
+} */
+
+.box{
+    background:rgba(0,0,0,0.3);
+    padding:5%;
+	text-align: center;
+    margin-left:5%;
+    margin-right: 5%;
+    /* margin-top: 5%; */
+	color: white;
+    font-family: 'Verdana';
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+form input{
+    padding: 1.0em 3.0em;
+    margin-bottom: 2em;
+}
+
+button{
+    padding: 1.0em 1.5em;
+    font-family: "Verdana";
+}
+
+
+button:hover{
+    cursor:pointer;
+	background-color: #a3a3c2;
+}
+
+h5 a{
+    color: rgb(157, 241, 22);
+    text-decoration: none;
+}
+
+h5 a:hover{
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.error{
+    color: rgb(243, 119, 119);
+    font-style: oblique;
+    font-size: 10px;
+}
